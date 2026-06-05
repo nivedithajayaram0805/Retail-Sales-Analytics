@@ -202,6 +202,6 @@ The dashboard enables stakeholders to:
 
 ## Author
 
-***Niveditha Jayaram**
+**Niveditha Jayaram**
 
 Retail Sales Analytics Project

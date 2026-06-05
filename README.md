@@ -1,10 +1,20 @@
-Retail Sales Analytics Dashboard
+# Retail Sales Analytics Dashboard
 
-Project Overview
+## Project Overview
 
 This project analyzes retail sales data using Python, PostgreSQL, and Power BI to identify sales trends, customer purchasing patterns, top-performing products, and business insights.
 
-Dataset Used
+The project follows a complete Data Analytics workflow including:
+
+- Data Cleaning using Python
+- SQL Analysis using PostgreSQL
+- Exploratory Data Analysis (EDA)
+- Dashboard Development using Power BI
+- Business Insights Generation
+
+---
+
+## Dataset Used
 
 Retail Sales Dataset containing:
 
@@ -16,7 +26,9 @@ Retail Sales Dataset containing:
 - Price
 - Invoice Date
 
-Tools Used
+---
+
+## Tools & Technologies
 
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
 - PostgreSQL
@@ -25,15 +37,15 @@ Tools Used
 
 ---
 
-Week 1 - Data Cleaning using Python
+## Week 1 - Data Cleaning & Preprocessing
 
-Tasks Performed
+### Tasks Performed
 
-- Imported raw retail dataset
-- Checked dataset shape and columns
-- Identified missing values
-- Removed duplicate records
-- Standardized date format
+- Imported raw retail sales dataset into Python.
+- Examined dataset shape and column information.
+- Identified missing values and data quality issues.
+- Removed duplicate records.
+- Standardized invoice date format.
 - Created analytical columns:
   - Revenue
   - Year
@@ -41,126 +53,155 @@ Tasks Performed
   - Hour
   - Weekday
   - Channel
-- Validated and corrected data types
-- Saved cleaned dataset
+- Validated and corrected data types.
+- Saved cleaned dataset.
 
-Outcome
+### Outcome
 
-Prepared a clean and consistent dataset for further analysis.
+Prepared a clean and analysis-ready dataset for further analysis and reporting.
 
 ---
 
-Week 2 - SQL Analysis using PostgreSQL
+## Week 2 - SQL Analysis Using PostgreSQL
 
-Tasks Performed
+### Tasks Performed
 
-- Imported cleaned dataset into PostgreSQL
-- Created retail_sales table
-- Performed SQL aggregations
-- Calculated:
-  - Total Revenue
-  - Average Revenue
-  - Total Orders
-  - Country Revenue
-  - Monthly Revenue
-  - Weekday Revenue
-  - Hour-wise Revenue
-  - Top Products
+- Imported cleaned dataset into PostgreSQL.
+- Created retail_sales table.
+- Performed SQL aggregations and business analysis.
 
-SQL Concepts Used
+### Analysis Conducted
 
+- Total Revenue
+- Average Revenue
+- Total Orders
+- Country Revenue
+- Monthly Revenue
+- Weekday Revenue
+- Hour-wise Revenue
+- Top Products Analysis
+
+### SQL Concepts Used
+
+- SELECT
+- WHERE
 - GROUP BY
 - ORDER BY
 - COUNT()
 - SUM()
 - AVG()
 
-Outcome
+### Outcome
 
-Generated business metrics and sales performance reports.
+Generated business metrics and sales insights using SQL queries.
 
 ---
 
-Week 3 - Exploratory Data Analysis (EDA)
+## Week 3 - Exploratory Data Analysis (EDA)
 
-Tasks Performed
+### Analysis Performed
 
 - Monthly Revenue Trend Analysis
 - Country-wise Revenue Analysis
-- Weekday Revenue Analysis
+- Weekday Sales Analysis
 - Hour-wise Revenue Analysis
-- Product Performance Analysis
+- Top Product Analysis
 - Channel-wise Revenue Analysis
 
-Key Insights
+### Visualizations Created
 
-- UK generated the highest revenue
-- Month 11 recorded peak sales
-- Tuesday showed highest revenue
-- Sales peaked between 11 AM and 2 PM
-- Online and Offline channels contributed almost equally
+- Line Charts
+- Bar Charts
+- Area Charts
+- Revenue Trend Analysis
 
-Outcome
+### Outcome
 
-Identified sales trends and business opportunities through data exploration.
+Identified sales patterns, peak revenue periods, top-performing countries, and customer purchasing behavior.
 
 ---
 
-Week 4 - Power BI Dashboard Development
+## Week 4 - Power BI Dashboard Development
 
-Dashboard Components
+### Dashboard Components
 
-- Total Revenue KPI
-- Total Orders KPI
-- Unique Products KPI
-- Average Revenue KPI
+### KPI Cards
+
+- Total Revenue
+- Total Orders
+- Unique Products
+- Average Revenue
+
+### Visualizations
+
 - Monthly Revenue Trend
 - Revenue by Country
 - Revenue by Weekday
 - Revenue by Hour
 - Top 10 Products by Revenue
 - Revenue by Channel
-- Interactive Filters:
-  - Month
-  - Country
-  - Channel
 
-Additional Features
+### Interactive Filters
 
-- Executive Sales Dashboard Layout
-- Business Insights Section
-- Interactive Slicers
-- Dashboard Screenshot Documentation
-- GitHub Project Documentation
+- Month Filter
+- Country Filter
+- Channel Filter
 
-Outcome
+### Business Insights Section
 
-Developed an interactive dashboard to support business decision-making and performance monitoring.
+- UK generated the highest revenue.
+- Peak sales observed during Month 11.
+- Tuesday recorded highest sales.
+- Revenue peaked between 11 AM and 2 PM.
+- Online and Offline channels contributed almost equally.
+
+### Outcome
+
+Developed an interactive Executive Sales Dashboard for business decision-making.
 
 ---
 
-Key Business Insights
+## Key Business Insights
 
 - Total Revenue: 17.37M
 - Total Orders: 36.97K
 - Unique Products: 5.27K
 - Average Revenue: 22.29
-- UK generated highest revenue
-- Revenue peaked during Month 11
-- Tuesday recorded highest sales
-- Peak sales occurred between 11 AM and 2 PM
-- Online and Offline channels contributed almost equally
+- UK generated the highest revenue.
+- Month 11 recorded peak sales.
+- Tuesday showed maximum revenue generation.
+- Sales were highest between 11 AM and 2 PM.
+- Online and Offline channels contributed nearly equally.
 
 ---
 
-Project Outcome
+## Project Outcome
 
-Successfully completed an end-to-end Retail Sales Analytics project involving:
+Successfully built an end-to-end Retail Sales Analytics solution using Python, PostgreSQL, and Power BI.
 
-- Data Cleaning using Python
-- SQL-based Business Analysis
-- Exploratory Data Analysis (EDA)
-- Interactive Power BI Dashboard Development
-- GitHub Documentation and Version Control
+The dashboard enables stakeholders to:
 
-The final dashboard enables stakeholders to monitor sales performance, identify trends, and make data-driven business decisions.
+- Monitor sales performance
+- Identify revenue trends
+- Analyze top-performing products
+- Evaluate customer purchasing behavior
+- Support data-driven business decisions
+
+---
+
+## Repository Contents
+
+- Retail_Sales_Day1.ipynb
+- Retail_Sales_Day2.ipynb
+- Week2_SQL_Analysis.sql
+- Retail_Sales_Dashboard.pbix
+- Dashboard_Final.png
+- README.md
+
+---
+
+## Author
+
+***Niveditha Jayaram**
+
+Retail Sales Analytics Project
